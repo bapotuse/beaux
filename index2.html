@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | BEAUX Baptiste</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/iconUser.png">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100..900&family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-poppins">
+    <header class="bg-white shadow-md py-4">
+        <nav class="container mx-auto flex justify-center space-x-6">
+            <a href="#aPropos" class="text-lg font-semibold hover:text-blue-500">Accueil</a>
+            <a href="#bts" class="text-lg font-semibold hover:text-blue-500">BTS</a>
+            <a href="#entreprise" class="text-lg font-semibold hover:text-blue-500">Stage</a>
+            <a href="#veille" class="text-lg font-semibold hover:text-blue-500">Veille</a>
+            <a href="#competences" class="text-lg font-semibold hover:text-blue-500">Compétences</a>
+            <a href="#" class="text-lg font-semibold hover:text-blue-500">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="aPropos" class="py-12 text-center">
+        <div class="max-w-4xl mx-auto">
+            <img class="w-48 h-48 rounded-full mx-auto shadow-lg" src="img/PHOTO%20ECOLE%20DIRECTE%202EME.JPG" alt="photoDeBaptiste" onclick="bapotuse()" id="image"/>
+            <h1 class="text-3xl font-bold mt-4">Bienvenue sur mon portfolio</h1>
+            <p class="text-lg mt-2">Je suis Baptiste BEAUX, développeur web, étudiant en deuxième année de BTS SIO option SLAM au lycée Charles Péguy à Marseille.</p>
+        </div>
+    </section>
+    
+    <section id="bts" class="py-12 bg-gray-200 text-center">
+        <h1 class="text-3xl font-bold">BTS SIO (Services Informatiques aux Organisations)</h1>
+        <img class="w-32 mx-auto mt-4" src="img/btssio.png" alt="BTS SIO">
+    </section>
+    
+    <section id="entreprise" class="py-12 text-center">
+        <h1 class="text-3xl font-bold">Mes Stages</h1>
+        <div class="flex justify-center space-x-6 mt-4">
+            <a href="kalune.html" class="bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Kalune</a>
+            <a href="dune.html" class="bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Dune</a>
+        </div>
+    </section>
+    
+    <section id="veille" class="py-12 bg-gray-200 text-center">
+        <h1 class="text-3xl font-bold">Veille technologique</h1>
+        <p class="mt-4">Une veille technologique est un processus de surveillance et d’analyse des avancées, innovations et tendances.</p>
+        <div class="mt-6">
+            <h2 class="text-2xl font-semibold">Sujet : Les frameworks JavaScript</h2>
+            <p class="mt-2">Les 3 meilleurs frameworks JavaScript : React, Vue.js, Angular</p>
+        </div>
+    </section>
+    
+    <section id="competences" class="py-12 text-center">
+        <h1 class="text-3xl font-bold">Compétences</h1>
+        <table class="mt-6 mx-auto border-collapse border border-gray-300 text-left w-3/4">
+            <tr class="bg-gray-100">
+                <th class="border border-gray-300 px-4 py-2">Compétences</th>
+                <th class="border border-gray-300 px-4 py-2">Preuves</th>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Gérer le patrimoine informatique</td>
+                <td class="border border-gray-300 px-4 py-2 text-red-500">Compétence non validée ❌</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Développer la présence en ligne</td>
+                <td class="border border-gray-300 px-4 py-2">Programme d'affiliation</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-300 px-4 py-2">Travailler en mode projet</td>
+                <td class="border border-gray-300 px-4 py-2">Asana / Supports papier</td>
+            </tr>
+        </table>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
